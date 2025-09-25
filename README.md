@@ -8,7 +8,7 @@
 - ✅ Certificações em **Análise de Dados com Power BI** e **Web Scraping com Selenium**  
 - 💻 JavaScript do básico ao avançado, com projetos práticos  
 - 🐍 Python intermediário  
-- ✉️ Contato: <a href="mailto:wenes.vargas@gmail.com" target="_blank" style="text-decoration:none">wenes-vargas@gmail.com</a>
+- ✉️ Contato: <a href="mailto:wenes.vargas@gmail.com" target="_blank" style="text-decoration:none">wenes.vargas@gmail.com</a>
 
 ---
 
