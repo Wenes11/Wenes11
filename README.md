@@ -33,7 +33,7 @@
 
 ### 🌐 &nbsp;Contato
 <div align="left">
-  <a href="mailto:wenes-vargas@gmail.com" target="_blank" style="text-decoration:none">
+  <a href="mailto:wenes-vargas@10gmail.com" target="_blank" style="text-decoration:none">
     <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://github.com/Wenes11" target="_blank" style="text-decoration:none">
