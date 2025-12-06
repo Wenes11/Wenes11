@@ -5,7 +5,7 @@
 
 ### Sobre mim
 - 🎓 Estudante da Estácio – Polo Goiânia  
-- ✅ Certificações em **Análise de Dados com Power BI** e **Web Scraping com Selenium**  
+- ✅ Certificações em **Análise de Dados com Power BI** e **Web Scraping com Selenium**  & **Engenheiros de Dados**
 - 💻 JavaScript do básico ao avançado, com projetos práticos  
 - 🐍 Python intermediário  
 - ✉️ Contato: <a href="mailto:wenes.vargas10@gmail.com" target="_blank" style="text-decoration:none">wenes.vargas@gmail.com</a>
