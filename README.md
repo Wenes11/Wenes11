@@ -38,13 +38,22 @@
 
 ---
 
-### 📊 Estatísticas
+### 📊 Analytics & Performance
 
 <div align="center">
   <a href="https://github.com/Wenes11">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Wenes11&show_icons=true&theme=dark&include_all_commits=true&count_private=false"/>
+    <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Wenes11&show_icons=true&theme=transparent&hide_border=true&title_color=36BCF7&text_color=bfbfbf&icon_color=36BCF7" alt="Wenes11 Stats"/>
   </a>
+  
   <a href="https://github.com/Wenes11">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wenes11&layout=compact&theme=dark"/>
+    <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wenes11&layout=compact&theme=transparent&hide_border=true&title_color=36BCF7&text_color=bfbfbf" alt="Top Langs"/>
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/Wenes11">
+    <img src="https://streak-stats.demolab.com?user=Wenes11&theme=transparent&hide_border=true&currStreakLabel=36BCF7&fire=36BCF7&ring=36BCF7&currStreakNum=bfbfbf&sideNums=bfbfbf&sideLabels=bfbfbf" alt="GitHub Streak" />
   </a>
 </div>
