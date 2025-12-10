@@ -32,6 +32,9 @@ Sou estudante de Ciência da Computação e Analista de Dados focado em intelig�
   <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-vargas-martins-b67b29292/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
   </a>
+  <a href="https://www.instagram.com/wenesvargas/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" />
+  </a>
   <a href="mailto:wenes.vargas10@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
   </a>
@@ -56,4 +59,10 @@ Sou estudante de Ciência da Computação e Analista de Dados focado em intelig�
 <br/>
 
 <div align="center">
-  <img src="
+  <img src="https://github-readme-stats.vercel.app/api?username=Wenes11&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdae&icon_color=38bdae" height="150" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wenes11&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdae" height="150" alt="Langs" />
+</div>
+
+<div align="center">
+ <img src="https://streak-stats.demolab.com?user=Wenes11&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdae&currStreakLabel=38bdae" height="140" alt="Streak" />
+</div>
