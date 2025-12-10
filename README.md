@@ -38,16 +38,13 @@
 
 ---
 
-### 📈 Estatísticas do GitHub
+### 📊 Estatísticas
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Wenes11&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Wenes11 Stats" height="150" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wenes11&layout=compact&theme=dark&hide_border=true" alt="Top Langs" height="150" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Wenes11&theme=dark&hide_border=true" alt="Streak" height="150" />
+  <a href="https://github.com/Wenes11">
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Wenes11&show_icons=true&theme=dark&include_all_commits=true&count_private=false"/>
+  </a>
+  <a href="https://github.com/Wenes11">
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wenes11&layout=compact&theme=dark"/>
+  </a>
 </div>
