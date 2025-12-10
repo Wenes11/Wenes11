@@ -1,45 +1,72 @@
-<h1 align="left">Olá, eu sou João Vitor <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"></h1>
-<p align="left"><img src="https://komarev.com/ghpvc/?username=Wenes11&color=blue" alt="Profile views" /></p>
-
----
-
-### Sobre mim
-- 🎓 Estudante da Estácio – Polo Goiânia  
-- ✅ Certificações em **Análise de Dados com Power BI** e **Web Scraping com Selenium**  & **Engenheiros de Dados**
-- 💻 JavaScript do básico ao avançado, com projetos práticos  
-- 🐍 Python intermediário  
-- ✉️ Contato: <a href="mailto:wenes.vargas10@gmail.com" target="_blank" style="text-decoration:none">wenes.vargas@gmail.com</a>
-
----
-
-### 🛠 &nbsp;Tech Stack
-
-<div style="display: flex; justify-content: space-evenly;">
-    <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>&nbsp;
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>&nbsp;
-    <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>&nbsp;
-    <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>&nbsp;
-</div>
-
----
-
-### ⚙️ &nbsp;Estatísticas do meu GitHub
 <div align="center">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Wenes11&show_icons=true&theme=dracula" alt="Estatísticas do GitHub" />
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wenes11&layout=compact&theme=dracula" alt="Linguagens mais usadas" />
+  <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px" alt="Hi Gif">
+  <h1>Olá, eu sou João Vitor</h1>
+  <h3>Analista de Dados & Estudante de Ciência da Computação</h3>
+  
+  <p>
+    <a href="https://github.com/Wenes11">
+      <img src="https://komarev.com/ghpvc/?username=Wenes11&color=blue&style=flat-square&label=Profile+Views" alt="Profile views" />
+    </a>
+  </p>
+
+  <p>
+    <em>Transformando dados em insights e construindo automações inteligentes.</em>
+  </p>
 </div>
 
----
+<br/>
 
-### 🌐 &nbsp;Contato
-<div align="left">
-  <a href="mailto:wenes-vargas@10gmail.com" target="_blank" style="text-decoration:none">
-    <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<div align="center">
+  
+  ---
+  
+  ### 🚀 Sobre mim
+  
+  <p align="left">
+    🎓 <strong>Formação:</strong> Estudante de Ciência da Computação na Estácio (Polo Goiânia).<br>
+    📊 <strong>Foco Profissional:</strong> Análise de Dados, Engenharia de Dados e Automação.<br>
+    ✅ <strong>Certificações:</strong> Power BI, Web Scraping com Selenium & Engenharia de Dados.<br>
+    💻 <strong>Desenvolvimento:</strong> JavaScript (Projetos Práticos) & Python (Intermediário).<br>
+  </p>
+
+  ---
+
+  ### 🛠 Tech Stack & Ferramentas
+
+  <div style="display: inline_block">
+    <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+    <img align="center" alt="PowerBI" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" /> <img align="center" alt="Js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+    <img align="center" alt="Selenium" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" />
+  </div>
+  
+  <br/>
+  
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+
+  ---
+
+  ### ⚙️ Estatísticas do GitHub
+
+  <div align="center">
+    <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Wenes11&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Wenes11 GitHub Stats" />
+    <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wenes11&layout=compact&theme=dracula" alt="Top Languages" />
+  </div>
+
+  ---
+
+  ### 🤝 Vamos nos conectar?
+
+  <a href="mailto:wenes.vargas10@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://github.com/Wenes11" target="_blank" style="text-decoration:none">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-vargas-martins-b67b29292/" target="_blank" style="text-decoration:none">
+  <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-vargas-martins-b67b29292/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  <a href="https://github.com/Wenes11" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+
 </div>
