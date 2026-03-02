@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+Vitor;Analista+de+Dados+%26+Engenheiro;Python+%7C+Power+BI+%7C+SQL" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=500&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+Vitor;Engenheiro+de+Dados+%26+Dev;Co-Fundador+%40+QuadCode;Automa%C3%A7%C3%A3o+%7C+Python+%7C+Java+%7C+JS" alt="Typing SVG" />
   
   <p align="center">
     <a href="https://github.com/Wenes11">
@@ -13,18 +13,18 @@
 <div align="center">
 <table border="0">
   <tr>
-    <td width="50%" valign="top">
+    <td width="55%" valign="top">
       
-### 👨‍💻 Perfil Profissional
+### 👨‍💻 Sobre Mim
 
-> *"Transformando dados complexos em estratégias claras."*
+> *"Automatizando processos e transformando dados em estratégias."*
 
-Sou estudante de Ciência da Computação e Analista de Dados focado em inteligência de negócios. 
+Sou estudante de Ciência da Computação, **Co-Fundador da QuadCode** e atuo como Engenheiro/Analista de Dados. Tenho um forte foco em criar soluções de ponta a ponta, desde pipelines de dados até landing pages de alta conversão.
 
 - 🎓 **Formação:** Ciência da Computação @ Estácio
-- 🔭 **Atuando em:** Dashboards Interativos & ETL
-- 💼 **Experiência:** Web Scraping, Automação e BI
-- 🌱 **Estudando:** Engenharia de Dados Avançada
+- 🚀 **Atuando em:** Engenharia de Dados, ETL e Automação
+- 💼 **Experiência:** Projetos reais em BI, Web Scraping e criação de Landing Pages na QuadCode
+- 🌱 **Stack Principal:** Python, JavaScript, Java e ferramentas de automação
 
 <br/>
 
@@ -41,20 +41,32 @@ Sou estudante de Ciência da Computação e Analista de Dados focado em intelig�
 </div>
 
 </td>
-<td width="50%" valign="top">
+<td width="45%" valign="top">
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack & Skills
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,powerbi,selenium,mysql,git&perline=3" />
+  <p><strong>Engenharia de Dados & Back-end</strong></p>
+  <img src="https://skillicons.dev/icons?i=python,java,mysql,postgres,git&perline=5" />
   <br/><br/>
-  <img src="https://skillicons.dev/icons?i=html,css,js,vscode,github&perline=5" />
+  <p><strong>Front-end & Automação</strong></p>
+  <img src="https://skillicons.dev/icons?i=js,html,css,vscode,github&perline=5" />
 </div>
 
 </td>
   </tr>
 </table>
 </div>
+
+<br/>
+
+### 🏆 Projetos Reais & Certificações
+
+Aqui estão alguns dos meus principais projetos em Engenharia de Dados e desenvolvimentos pela **QuadCode**:
+
+* 🚧 **[Nome do Projeto de Dados 1]** - *Breve descrição do pipeline ou automação (ex: Web scraping com Python e ETL para o Power BI).*
+* 🚧 **[Landing Page - Cliente X]** - *Desenvolvimento de página de alta conversão com JS/HTML/CSS.*
+* 📜 **Certificações em Destaque:** Analista de Dados, SQL Queries, JavaScript Avançado e IA.
 
 <br/>
 
