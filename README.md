@@ -6,6 +6,9 @@
 
   <br><br>
 
+  <a href="https://wa.me/5564992486472" target="_blank">
+    <img src="https://img.shields.io/badge/WHATSAPP-111111?style=for-the-badge&logo=whatsapp&logoColor=D4AF37" alt="WhatsApp" />
+  </a>
   <a href="mailto:wenes.vargas10@gmail.com">
     <img src="https://img.shields.io/badge/GMAIL-111111?style=for-the-badge&logo=gmail&logoColor=D4AF37" alt="Gmail" />
   </a>
