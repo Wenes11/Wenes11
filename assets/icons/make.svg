@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <defs>
+    <linearGradient id="makeGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6D00CC"/>
+      <stop offset="55%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#E879F9"/>
+    </linearGradient>
+  </defs>
+  <!-- Make Three Parallel Slanted Bars -->
+  <g fill="url(#makeGrad)">
+    <rect x="64" y="64" width="30" height="128" rx="10" transform="rotate(-14 79 128)"/>
+    <rect x="113" y="64" width="30" height="128" rx="10" transform="rotate(-14 128 128)"/>
+    <rect x="162" y="64" width="30" height="128" rx="10" transform="rotate(-14 177 128)"/>
+  </g>
+</svg>

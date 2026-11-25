@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <defs>
+    <linearGradient id="sqlTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171"/>
+      <stop offset="100%" stop-color="#CC2927"/>
+    </linearGradient>
+    <linearGradient id="sqlBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B91C1C"/>
+      <stop offset="50%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+  </defs>
+  <!-- 3-Layer Database Cylinder -->
+  <path d="M58 84v88c0 16.6 31.3 30 70 30s70-13.4 70-30V84H58z" fill="url(#sqlBody)"/>
+  <ellipse cx="128" cy="84" rx="70" ry="26" fill="url(#sqlTop)"/>
+  <path d="M58 114c0 14.4 31.3 26 70 26s70-11.6 70-26" fill="none" stroke="#FCA5A5" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M58 144c0 14.4 31.3 26 70 26s70-11.6 70-26" fill="none" stroke="#FCA5A5" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+  <ellipse cx="128" cy="84" rx="52" ry="15" fill="none" stroke="#FECACA" stroke-width="3.5" opacity="0.6"/>
+</svg>

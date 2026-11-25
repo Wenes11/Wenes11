@@ -1,223 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100%" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050505"/>
-      <stop offset="40%" stop-color="#0d0d0d"/>
-      <stop offset="100%" stop-color="#111111"/>
+    <!-- Surface & Accent Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="52%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#131A26"/>
     </linearGradient>
 
-    <!-- Gold glow filter -->
-    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+    <linearGradient id="topGoldEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#D4AF37" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#F3D570" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#D4AF37" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
 
-    <!-- Strong glow for title -->
-    <filter id="titleGlow" x="-5%" y="-40%" width="110%" height="180%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feFlood flood-color="#D4AF37" flood-opacity="0.4" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="glow"/>
-      <feMerge>
-        <feMergeNode in="glow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
 
-    <!-- Soft glow for lines -->
-    <filter id="lineGlow" x="-10%" y="-200%" width="120%" height="500%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <linearGradient id="goldBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3D570"/>
+      <stop offset="100%" stop-color="#B8922A"/>
+    </linearGradient>
 
-    <!-- Clip path -->
-    <clipPath id="svgClip">
-      <rect width="900" height="160"/>
+    <linearGradient id="pipeStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363D"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#30363D"/>
+    </linearGradient>
+
+    <radialGradient id="ambientGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.12"/>
+      <stop offset="65%" stop-color="#D4AF37" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F3D570" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Architectural Dot Grid -->
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8B949E" opacity="0.28"/>
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="0.5" y="0.5" width="1199" height="259" rx="16"/>
     </clipPath>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="160" fill="url(#bg)" clip-path="url(#svgClip)"/>
+  <g clip-path="url(#cardClip)">
+    <!-- Base Surface -->
+    <rect width="1200" height="260" fill="url(#bgGrad)"/>
+    <rect width="1200" height="260" fill="url(#dotGrid)" opacity="0.55"/>
 
-  <!-- ===== CIRCUIT LINES LEFT ===== -->
-  <g opacity="0.6" filter="url(#lineGlow)" clip-path="url(#svgClip)">
-    <!-- Horizontal backbone left -->
-    <line x1="0" y1="40" x2="180" y2="40" stroke="#D4AF37" stroke-width="1.2">
-      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
-    </line>
-    <!-- Branch down -->
-    <line x1="80" y1="40" x2="80" y2="90" stroke="#D4AF37" stroke-width="1"/>
-    <line x1="80" y1="90" x2="130" y2="90" stroke="#D4AF37" stroke-width="1"/>
-    <!-- Junction dot -->
-    <circle cx="80" cy="40" r="2.5" fill="#D4AF37">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="130" cy="90" r="2" fill="#D4AF37" opacity="0.8"/>
+    <!-- Ambient Gold Radial Glow behind Pipeline -->
+    <ellipse cx="970" cy="130" rx="230" ry="135" fill="url(#ambientGlow)"/>
 
-    <!-- Upper circuit -->
-    <line x1="0" y1="15" x2="50" y2="15" stroke="#D4AF37" stroke-width="0.8" opacity="0.5"/>
-    <line x1="50" y1="15" x2="50" y2="35" stroke="#D4AF37" stroke-width="0.8" opacity="0.5"/>
-    <circle cx="50" cy="15" r="1.5" fill="#D4AF37" opacity="0.7"/>
+    <!-- Subtle Vertical Divider -->
+    <line x1="762" y1="32" x2="762" y2="228" stroke="#21262D" stroke-width="1"/>
 
-    <!-- Small node cluster -->
-    <rect x="140" y="33" width="12" height="12" fill="none" stroke="#D4AF37" stroke-width="0.8" rx="2" opacity="0.7"/>
-    <line x1="152" y1="39" x2="180" y2="39" stroke="#D4AF37" stroke-width="0.8" opacity="0.5"/>
+    <!-- Top Highlight Edge -->
+    <rect x="0" y="0" width="1200" height="2" fill="url(#topGoldEdge)"/>
 
-    <!-- Lower left trace -->
-    <line x1="0" y1="120" x2="100" y2="120" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
-    <line x1="100" y1="120" x2="100" y2="100" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
-    <line x1="100" y1="100" x2="145" y2="100" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
-    <circle cx="100" cy="120" r="2" fill="#D4AF37" opacity="0.6"/>
+    <!-- ===== LEFT EDITORIAL BLOCK ===== -->
+    <!-- Eyebrow Status Pill -->
+    <g transform="translate(56, 32)">
+      <rect x="0" y="0" width="376" height="26" rx="13" fill="#161B22" stroke="#D4AF37" stroke-opacity="0.38" stroke-width="1"/>
+      <circle cx="17" cy="13" r="3.5" fill="#E6C25A">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="30" y="17" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.6" fill="#E6C25A">DATA ENGINEERING  •  ARCHITECTURE  •  AUTOMATION</text>
+    </g>
+
+    <!-- Main Name -->
+    <text x="56" y="114" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-0.4" fill="url(#nameGrad)">João Vitor Vargas Martins</text>
+
+    <!-- Gold Accent Bar -->
+    <rect x="56" y="130" width="72" height="3" rx="1.5" fill="url(#goldBarGrad)"/>
+
+    <!-- Role Subtitle -->
+    <text x="56" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0.3" fill="#E2E8F0">Engenheiro de Dados  ·  Desenvolvedor de Software  ·  Co-Fundador @ QuadCode</text>
+
+    <!-- Executive Tagline -->
+    <text x="56" y="200" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#94A3B8">Transformando dados brutos em arquitetura escalável e soluções de negócio.</text>
+
+    <!-- Bottom Micro-Tags -->
+    <text x="56" y="234" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="#D4AF37" opacity="0.8">ETL PIPELINES  /  SQL &amp; DATABASES  /  PYTHON &amp; JAVA  /  AI AUTOMATION</text>
+
+    <!-- ===== RIGHT DATA PIPELINE GRAPH ===== -->
+    <g>
+      <!-- Ambient Core Halo -->
+      <circle cx="972" cy="130" r="54" fill="url(#nodeGlow)"/>
+
+      <!-- Connection Paths: Inputs -> Core -->
+      <path id="pathIn1" d="M 886 84 C 916 84, 912 122, 932 122" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
+      <path id="pathIn2" d="M 886 176 C 916 176, 912 138, 932 138" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
+
+      <!-- Connection Paths: Core -> Outputs -->
+      <path id="pathOut1" d="M 1012 122 C 1032 122, 1028 84, 1058 84" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
+      <path id="pathOut2" d="M 1012 138 C 1032 138, 1028 176, 1058 176" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
+
+      <!-- Animated Data Pulses -->
+      <circle r="3" fill="#F3D570">
+        <animateMotion dur="2.6s" repeatCount="indefinite" path="M 886 84 C 916 84, 912 122, 932 122"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3" fill="#F3D570">
+        <animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M 886 176 C 916 176, 912 138, 932 138"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3" fill="#F3D570">
+        <animateMotion dur="2.6s" begin="0.65s" repeatCount="indefinite" path="M 1012 122 C 1032 122, 1028 84, 1058 84"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0.65s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3" fill="#F3D570">
+        <animateMotion dur="2.6s" begin="1.95s" repeatCount="indefinite" path="M 1012 138 C 1032 138, 1028 176, 1058 176"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="1.95s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Input Node 1: RAW DATA -->
+      <g transform="translate(792, 66)">
+        <rect width="94" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
+        <circle cx="14" cy="18" r="3" fill="#38BDF8"/>
+        <text x="54" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#CBD5E1">RAW DATA</text>
+      </g>
+
+      <!-- Input Node 2: APIs -->
+      <g transform="translate(792, 158)">
+        <rect width="94" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
+        <circle cx="14" cy="18" r="3" fill="#38BDF8"/>
+        <text x="54" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#CBD5E1">APIs / SQL</text>
+      </g>
+
+      <!-- Center Core Node: ETL / DB -->
+      <g transform="translate(932, 104)">
+        <rect width="80" height="52" rx="12" fill="#18150E" stroke="#D4AF37" stroke-width="1.5"/>
+        <circle cx="40" cy="18" r="4" fill="#F3D570">
+          <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="40" y="38" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="700" fill="#F3D570">ETL / DB</text>
+      </g>
+
+      <!-- Output Node 1: BI & INSIGHTS -->
+      <g transform="translate(1058, 66)">
+        <rect width="98" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
+        <circle cx="14" cy="18" r="3" fill="#D4AF37"/>
+        <text x="58" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#E2E8F0">BI / METRICS</text>
+      </g>
+
+      <!-- Output Node 2: AI & SAAS -->
+      <g transform="translate(1058, 158)">
+        <rect width="98" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
+        <circle cx="14" cy="18" r="3" fill="#34D399"/>
+        <text x="58" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#E2E8F0">AI &amp; SAAS</text>
+      </g>
+    </g>
   </g>
 
-  <!-- ===== CIRCUIT LINES RIGHT ===== -->
-  <g opacity="0.6" filter="url(#lineGlow)" clip-path="url(#svgClip)">
-    <!-- Horizontal backbone right -->
-    <line x1="720" y1="40" x2="900" y2="40" stroke="#D4AF37" stroke-width="1.2">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/>
-    </line>
-    <!-- Branch down -->
-    <line x1="820" y1="40" x2="820" y2="90" stroke="#D4AF37" stroke-width="1"/>
-    <line x1="770" y1="90" x2="820" y2="90" stroke="#D4AF37" stroke-width="1"/>
-    <circle cx="820" cy="40" r="2.5" fill="#D4AF37">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="770" cy="90" r="2" fill="#D4AF37" opacity="0.8"/>
-
-    <!-- Upper right circuit -->
-    <line x1="850" y1="15" x2="900" y2="15" stroke="#D4AF37" stroke-width="0.8" opacity="0.5"/>
-    <line x1="850" y1="15" x2="850" y2="35" stroke="#D4AF37" stroke-width="0.8" opacity="0.5"/>
-    <circle cx="850" cy="15" r="1.5" fill="#D4AF37" opacity="0.7"/>
-
-    <!-- Node cluster right -->
-    <rect x="748" y="33" width="12" height="12" fill="none" stroke="#D4AF37" stroke-width="0.8" rx="2" opacity="0.7"/>
-    <line x1="720" y1="39" x2="748" y2="39" stroke="#D4AF37" stroke-width="0.8" opacity="0.5"/>
-
-    <!-- Lower right trace -->
-    <line x1="800" y1="120" x2="900" y2="120" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
-    <line x1="800" y1="100" x2="800" y2="120" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
-    <line x1="755" y1="100" x2="800" y2="100" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
-    <circle cx="800" cy="120" r="2" fill="#D4AF37" opacity="0.6"/>
-  </g>
-
-  <!-- ===== TRAVELLING DATA PULSE LEFT ===== -->
-  <g clip-path="url(#svgClip)" filter="url(#goldGlow)">
-    <circle cx="0" cy="40" r="3" fill="#ffffff" opacity="0.9">
-      <animateMotion dur="2.5s" repeatCount="indefinite" path="M0,0 L180,0"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- ===== TRAVELLING DATA PULSE RIGHT ===== -->
-  <g clip-path="url(#svgClip)" filter="url(#goldGlow)">
-    <circle cx="900" cy="40" r="3" fill="#ffffff" opacity="0.9">
-      <animateMotion dur="2.5s" begin="1.2s" repeatCount="indefinite" path="M0,0 L-180,0"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- ===== AMBIENT PARTICLES ===== -->
-  <g clip-path="url(#svgClip)">
-    <!-- Particle cluster left -->
-    <circle cx="25" cy="70" r="1.5" fill="#D4AF37" opacity="0.5">
-      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="70;65;70" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="45" cy="110" r="1" fill="#D4AF37" opacity="0.4">
-      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="15" cy="135" r="1.2" fill="#D4AF37" opacity="0.3">
-      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- Particle cluster right -->
-    <circle cx="875" cy="70" r="1.5" fill="#D4AF37" opacity="0.5">
-      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="70;75;70" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="855" cy="110" r="1" fill="#D4AF37" opacity="0.4">
-      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="885" cy="135" r="1.2" fill="#D4AF37" opacity="0.3">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- Central floating dots -->
-    <circle cx="440" cy="18" r="1.2" fill="#D4AF37" opacity="0.3">
-      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="460" cy="145" r="1" fill="#D4AF37" opacity="0.25">
-      <animate attributeName="opacity" values="0.25;0.05;0.25" dur="4.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- ===== TOP BORDER LINE (animated) ===== -->
-  <line x1="0" y1="2" x2="900" y2="2" stroke="#D4AF37" stroke-width="2.5" opacity="0.9" filter="url(#lineGlow)">
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- ===== BOTTOM BORDER LINE ===== -->
-  <line x1="0" y1="158" x2="900" y2="158" stroke="#D4AF37" stroke-width="1.2" opacity="0.5"/>
-
-  <!-- ===== CORNER ACCENTS ===== -->
-  <!-- Top-left -->
-  <polyline points="0,0 20,0 20,20" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.9"/>
-  <!-- Top-right -->
-  <polyline points="900,0 880,0 880,20" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.9"/>
-  <!-- Bottom-left -->
-  <polyline points="0,160 20,160 20,140" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.9"/>
-  <!-- Bottom-right -->
-  <polyline points="900,160 880,160 880,140" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.9"/>
-
-  <!-- ===== MAIN TITLE ===== -->
-  <text
-    x="450" y="82"
-    font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
-    font-weight="900"
-    font-size="38"
-    fill="#D4AF37"
-    text-anchor="middle"
-    letter-spacing="2"
-    filter="url(#titleGlow)"
-  >
-    João Vitor Vargas Martins
-    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
-  </text>
-
-  <!-- ===== DECORATIVE DIVIDER ===== -->
-  <g transform="translate(450, 98)" opacity="0.7">
-    <line x1="-180" y1="0" x2="-20" y2="0" stroke="#D4AF37" stroke-width="0.8"/>
-    <polygon points="-10,0 -6,-3 -6,3" fill="#D4AF37"/>
-    <polygon points="10,0 6,-3 6,3" fill="#D4AF37"/>
-    <line x1="20" y1="0" x2="180" y2="0" stroke="#D4AF37" stroke-width="0.8"/>
-    <!-- Diamonds -->
-    <rect x="-3" y="-3" width="6" height="6" fill="#D4AF37" transform="rotate(45 0 0)"/>
-  </g>
-
-  <!-- ===== SUBTITLE ===== -->
-  <text
-    x="450" y="125"
-    font-family="'Arial', 'Helvetica Neue', Helvetica, sans-serif"
-    font-weight="700"
-    font-size="13"
-    fill="#ffffff"
-    text-anchor="middle"
-    letter-spacing="5"
-    opacity="0.9"
-  >
-    ENGENHEIRO DE DADOS  ·  DESENVOLVEDOR DE SOFTWARE  ·  CO-FUNDADOR @QUADCODE
-  </text>
-
-  <!-- ===== SKILL TAGS (bottom) ===== -->
-  <g font-family="'Arial', monospace" font-size="9" fill="#D4AF37" opacity="0.55" text-anchor="middle" letter-spacing="1.5">
-    <text x="210" y="147">PYTHON</text>
-    <text x="310" y="147">DATA ENGINEERING</text>
-    <text x="450" y="147">· · ·</text>
-    <text x="590" y="147">AUTOMATION</text>
-    <text x="690" y="147">JAVA</text>
-  </g>
+  <!-- Crisp Card Border -->
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="16" fill="none" stroke="#21262D" stroke-width="1"/>
 </svg>

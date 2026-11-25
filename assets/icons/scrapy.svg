@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <!-- Geometric Hexagonal Crawler / Web Emblem -->
+  <polygon points="128,48 197,88 197,168 128,208 59,168 59,88" fill="none" stroke="#60A839" stroke-width="11" stroke-linejoin="round"/>
+  <polygon points="128,78 171,103 171,153 128,178 85,153 85,103" fill="none" stroke="#86EFAC" stroke-width="6" stroke-linejoin="round" opacity="0.75"/>
+  <line x1="128" y1="48" x2="128" y2="208" stroke="#60A839" stroke-width="6" opacity="0.65"/>
+  <line x1="59" y1="88" x2="197" y2="168" stroke="#60A839" stroke-width="6" opacity="0.65"/>
+  <line x1="197" y1="88" x2="59" y2="168" stroke="#60A839" stroke-width="6" opacity="0.65"/>
+  <circle cx="128" cy="128" r="20" fill="#60A839"/>
+  <circle cx="128" cy="128" r="9" fill="#242938"/>
+</svg>

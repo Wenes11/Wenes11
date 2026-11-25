@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168" height="34" viewBox="0 0 168 34" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="167" height="33" rx="8" fill="#1A160B" stroke="#D4AF37" stroke-opacity="0.8" stroke-width="1.2"/>
+  <text x="72" y="21.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F3D570">Acessar Sistema</text>
+  <g transform="translate(136, 10)" fill="none" stroke="#F3D570" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 10L12 2"/>
+    <path d="M6 2h6v6"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132" height="36" viewBox="0 0 132 36" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="131" height="35" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <g transform="translate(14, 9)">
+    <path d="M9 1a8 8 0 0 0-6.92 12l-.96 3.52 3.61-.95A8 8 0 1 0 9 1z" fill="none" stroke="#25D366" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M6.6 6.4c.2-.4.4-.4.6-.4h.5c.15 0 .35.06.5.42.18.42.6 1.46.65 1.56.05.1.08.22 0 .36-.08.14-.14.22-.26.35-.12.13-.26.28-.36.38-.12.12-.25.25-.1.5.14.25.63 1.04 1.36 1.68.93.83 1.72 1.09 1.97 1.21.25.12.4.1.54-.06.15-.16.64-.74.81-1 .17-.25.34-.21.58-.12.24.09 1.5.71 1.76.84.26.13.43.19.49.3.06.11.06.64-.16 1.26-.22.62-1.29 1.18-1.78 1.24-.46.06-1.04.09-1.68-.11-.39-.12-.89-.29-1.53-.57-2.7-1.17-4.46-3.9-4.6-4.08-.13-.18-1.1-1.46-1.1-2.79 0-1.33.7-1.98.95-2.25z" fill="#25D366"/>
+  </g>
+  <text x="79" y="22.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3">WhatsApp</text>
+</svg>
