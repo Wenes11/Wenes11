@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100%" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Surface & Accent Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -49,119 +49,112 @@
     </pattern>
 
     <clipPath id="cardClip">
-      <rect x="0.5" y="0.5" width="1199" height="259" rx="16"/>
+      <rect x="0.5" y="0.5" width="1199" height="389" rx="16"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#cardClip)">
     <!-- Base Surface -->
-    <rect width="1200" height="260" fill="url(#bgGrad)"/>
-    <rect width="1200" height="260" fill="url(#dotGrid)" opacity="0.55"/>
+    <rect width="1200" height="390" fill="url(#bgGrad)"/>
+    <rect width="1200" height="390" fill="url(#dotGrid)" opacity="0.55"/>
 
     <!-- Ambient Gold Radial Glow behind Pipeline -->
-    <ellipse cx="970" cy="130" rx="230" ry="135" fill="url(#ambientGlow)"/>
+    <ellipse cx="992" cy="195" rx="230" ry="185" fill="url(#ambientGlow)"/>
 
     <!-- Subtle Vertical Divider -->
-    <line x1="762" y1="32" x2="762" y2="228" stroke="#21262D" stroke-width="1"/>
+    <line x1="786" y1="42" x2="786" y2="348" stroke="#21262D" stroke-width="1"/>
 
     <!-- Top Highlight Edge -->
     <rect x="0" y="0" width="1200" height="2" fill="url(#topGoldEdge)"/>
 
     <!-- ===== LEFT EDITORIAL BLOCK ===== -->
-    <!-- Eyebrow Status Pill -->
-    <g transform="translate(56, 32)">
-      <rect x="0" y="0" width="376" height="26" rx="13" fill="#161B22" stroke="#D4AF37" stroke-opacity="0.38" stroke-width="1"/>
-      <circle cx="17" cy="13" r="3.5" fill="#E6C25A">
-        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
-      </circle>
-      <text x="30" y="17" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.6" fill="#E6C25A">DATA ENGINEERING  •  ARCHITECTURE  •  AUTOMATION</text>
-    </g>
-
     <!-- Main Name -->
-    <text x="56" y="114" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-0.4" fill="url(#nameGrad)">João Vitor Vargas Martins</text>
+    <text x="50" y="114" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="55" font-weight="700" letter-spacing="-0.6" fill="url(#nameGrad)">João Vitor Vargas Martins</text>
 
     <!-- Gold Accent Bar -->
-    <rect x="56" y="130" width="72" height="3" rx="1.5" fill="url(#goldBarGrad)"/>
+    <rect x="50" y="136" width="96" height="4" rx="2" fill="url(#goldBarGrad)"/>
 
-    <!-- Role Subtitle -->
-    <text x="56" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0.3" fill="#E2E8F0">Engenheiro de Dados  ·  Desenvolvedor de Software  ·  Co-Fundador @ QuadCode</text>
+    <!-- Role Subtitle (2 lines for crisp +50% scale) -->
+    <text x="50" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="0.2" fill="#E2E8F0">Engenheiro de Dados  ·  Desenvolvedor de Software</text>
+    <text x="50" y="220" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0.2" fill="#E6C25A">Co-Fundador @ QuadCode</text>
 
     <!-- Executive Tagline -->
-    <text x="56" y="200" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#94A3B8">Transformando dados brutos em arquitetura escalável e soluções de negócio.</text>
+    <text x="50" y="268" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">Transformando dados brutos em arquitetura escalável</text>
+    <text x="50" y="296" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">e soluções de negócio em produção.</text>
 
     <!-- Bottom Micro-Tags -->
-    <text x="56" y="234" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="#D4AF37" opacity="0.8">ETL PIPELINES  /  SQL &amp; DATABASES  /  PYTHON &amp; JAVA  /  AI AUTOMATION</text>
+    <text x="50" y="344" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" letter-spacing="1.1" fill="#D4AF37" opacity="0.85">ETL PIPELINES  /  SQL &amp; DATABASES  /  PYTHON &amp; JAVA  /  AI AUTOMATION</text>
 
     <!-- ===== RIGHT DATA PIPELINE GRAPH ===== -->
     <g>
       <!-- Ambient Core Halo -->
-      <circle cx="972" cy="130" r="54" fill="url(#nodeGlow)"/>
+      <circle cx="988" cy="195" r="68" fill="url(#nodeGlow)"/>
 
       <!-- Connection Paths: Inputs -> Core -->
-      <path id="pathIn1" d="M 886 84 C 916 84, 912 122, 932 122" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
-      <path id="pathIn2" d="M 886 176 C 916 176, 912 138, 932 138" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
+      <path d="M 914 111 C 932 111, 928 184, 946 184" fill="none" stroke="url(#pipeStroke)" stroke-width="1.8"/>
+      <path d="M 914 279 C 932 279, 928 206, 946 206" fill="none" stroke="url(#pipeStroke)" stroke-width="1.8"/>
 
       <!-- Connection Paths: Core -> Outputs -->
-      <path id="pathOut1" d="M 1012 122 C 1032 122, 1028 84, 1058 84" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
-      <path id="pathOut2" d="M 1012 138 C 1032 138, 1028 176, 1058 176" fill="none" stroke="url(#pipeStroke)" stroke-width="1.6"/>
+      <path d="M 1030 184 C 1048 184, 1044 111, 1062 111" fill="none" stroke="url(#pipeStroke)" stroke-width="1.8"/>
+      <path d="M 1030 206 C 1048 206, 1044 279, 1062 279" fill="none" stroke="url(#pipeStroke)" stroke-width="1.8"/>
 
       <!-- Animated Data Pulses -->
-      <circle r="3" fill="#F3D570">
-        <animateMotion dur="2.6s" repeatCount="indefinite" path="M 886 84 C 916 84, 912 122, 932 122"/>
+      <circle r="3.5" fill="#F3D570">
+        <animateMotion dur="2.6s" repeatCount="indefinite" path="M 914 111 C 932 111, 928 184, 946 184"/>
         <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" repeatCount="indefinite"/>
       </circle>
-      <circle r="3" fill="#F3D570">
-        <animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M 886 176 C 916 176, 912 138, 932 138"/>
+      <circle r="3.5" fill="#F3D570">
+        <animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M 914 279 C 932 279, 928 206, 946 206"/>
         <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
       </circle>
-      <circle r="3" fill="#F3D570">
-        <animateMotion dur="2.6s" begin="0.65s" repeatCount="indefinite" path="M 1012 122 C 1032 122, 1028 84, 1058 84"/>
+      <circle r="3.5" fill="#F3D570">
+        <animateMotion dur="2.6s" begin="0.65s" repeatCount="indefinite" path="M 1030 184 C 1048 184, 1044 111, 1062 111"/>
         <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0.65s" repeatCount="indefinite"/>
       </circle>
-      <circle r="3" fill="#F3D570">
-        <animateMotion dur="2.6s" begin="1.95s" repeatCount="indefinite" path="M 1012 138 C 1032 138, 1028 176, 1058 176"/>
+      <circle r="3.5" fill="#F3D570">
+        <animateMotion dur="2.6s" begin="1.95s" repeatCount="indefinite" path="M 1030 206 C 1048 206, 1044 279, 1062 279"/>
         <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="1.95s" repeatCount="indefinite"/>
       </circle>
 
       <!-- Input Node 1: RAW DATA -->
-      <g transform="translate(792, 66)">
-        <rect width="94" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
-        <circle cx="14" cy="18" r="3" fill="#38BDF8"/>
-        <text x="54" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#CBD5E1">RAW DATA</text>
+      <g transform="translate(806, 88)">
+        <rect width="108" height="46" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.3"/>
+        <circle cx="16" cy="23" r="3.5" fill="#38BDF8"/>
+        <text x="62" y="27" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11.5" font-weight="600" fill="#CBD5E1">RAW DATA</text>
       </g>
 
-      <!-- Input Node 2: APIs -->
-      <g transform="translate(792, 158)">
-        <rect width="94" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
-        <circle cx="14" cy="18" r="3" fill="#38BDF8"/>
-        <text x="54" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#CBD5E1">APIs / SQL</text>
+      <!-- Input Node 2: APIs / SQL -->
+      <g transform="translate(806, 256)">
+        <rect width="108" height="46" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.3"/>
+        <circle cx="16" cy="23" r="3.5" fill="#38BDF8"/>
+        <text x="62" y="27" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11.5" font-weight="600" fill="#CBD5E1">APIs / SQL</text>
       </g>
 
       <!-- Center Core Node: ETL / DB -->
-      <g transform="translate(932, 104)">
-        <rect width="80" height="52" rx="12" fill="#18150E" stroke="#D4AF37" stroke-width="1.5"/>
-        <circle cx="40" cy="18" r="4" fill="#F3D570">
+      <g transform="translate(946, 161)">
+        <rect width="84" height="68" rx="14" fill="#18150E" stroke="#D4AF37" stroke-width="1.6"/>
+        <circle cx="42" cy="23" r="4.5" fill="#F3D570">
           <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
         </circle>
-        <text x="40" y="38" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="700" fill="#F3D570">ETL / DB</text>
+        <text x="42" y="48" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="700" fill="#F3D570">ETL / DB</text>
       </g>
 
-      <!-- Output Node 1: BI & INSIGHTS -->
-      <g transform="translate(1058, 66)">
-        <rect width="98" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
-        <circle cx="14" cy="18" r="3" fill="#D4AF37"/>
-        <text x="58" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#E2E8F0">BI / METRICS</text>
+      <!-- Output Node 1: BI / METRICS -->
+      <g transform="translate(1062, 88)">
+        <rect width="116" height="46" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.3"/>
+        <circle cx="16" cy="23" r="3.5" fill="#D4AF37"/>
+        <text x="66" y="27" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="600" fill="#E2E8F0">BI / METRICS</text>
       </g>
 
       <!-- Output Node 2: AI & SAAS -->
-      <g transform="translate(1058, 158)">
-        <rect width="98" height="36" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
-        <circle cx="14" cy="18" r="3" fill="#34D399"/>
-        <text x="58" y="22" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#E2E8F0">AI &amp; SAAS</text>
+      <g transform="translate(1062, 256)">
+        <rect width="116" height="46" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.3"/>
+        <circle cx="16" cy="23" r="3.5" fill="#34D399"/>
+        <text x="66" y="27" text-anchor="middle" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="600" fill="#E2E8F0">AI &amp; SAAS</text>
       </g>
     </g>
   </g>
 
   <!-- Crisp Card Border -->
-  <rect x="0.5" y="0.5" width="1199" height="259" rx="16" fill="none" stroke="#21262D" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="1199" height="389" rx="16" fill="none" stroke="#21262D" stroke-width="1"/>
 </svg>

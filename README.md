@@ -4,27 +4,17 @@
 
 <br/><br/>
 
-<a href="https://wa.me/5564992486472" target="_blank">
-  <img src="assets/badges/whatsapp.svg" height="36" alt="WhatsApp" />
-</a>
+<a href="https://wa.me/5564992486472" target="_blank"><img src="assets/badges/whatsapp.svg" height="36" alt="WhatsApp" /></a>
 &nbsp;
-<a href="mailto:wenes.vargas10@gmail.com">
-  <img src="assets/badges/gmail.svg" height="36" alt="Email" />
-</a>
+<a href="mailto:wenes.vargas10@gmail.com"><img src="assets/badges/gmail.svg" height="36" alt="Email" /></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/joão-vitor-vargas-martins-b67b29292/" target="_blank">
-  <img src="assets/badges/linkedin.svg" height="36" alt="LinkedIn" />
-</a>
+<a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-vargas-martins-b67b29292/" target="_blank"><img src="assets/badges/linkedin.svg" height="36" alt="LinkedIn" /></a>
 &nbsp;
-<a href="https://github.com/Wenes11" target="_blank">
-  <img src="assets/badges/github.svg" height="36" alt="GitHub" />
-</a>
+<a href="https://github.com/Wenes11" target="_blank"><img src="assets/badges/github.svg" height="36" alt="GitHub" /></a>
 
 <br/><br/>
 
-<a href="https://github.com/Wenes11">
-  <img src="https://komarev.com/ghpvc/?username=Wenes11&style=flat-square&color=D4AF37&label=VISITAS&labelColor=161B22" alt="Profile Views" />
-</a>
+<a href="https://github.com/Wenes11"><img src="https://komarev.com/ghpvc/?username=Wenes11&style=flat-square&color=D4AF37&label=VISITAS&labelColor=161B22" alt="Profile Views" /></a>
 
 </div>
 
@@ -95,14 +85,12 @@
         Plataforma web de gestão em produção. Atuação na reestruturação e ajuste de banco de dados (integridade, modelagem e performance) e implementação de novas funcionalidades de negócio.<br/><br/>
         <em>Production management web platform. Database restructuring and optimization (schema integrity &amp; query performance) alongside implementation of new core business features.</em>
       </p>
-      <img src="https://img.shields.io/badge/Banco_de_Dados-161B22?style=flat-square&logo=postgresql&logoColor=D4AF37" alt="Banco de Dados" />
-      <img src="https://img.shields.io/badge/SQL-161B22?style=flat-square&logo=databricks&logoColor=D4AF37" alt="SQL" />
-      <img src="https://img.shields.io/badge/Novas_Funcionalidades-161B22?style=flat-square&color=161B22&labelColor=161B22" alt="Novas Funcionalidades" />
-      <img src="https://img.shields.io/badge/Produção-161B22?style=flat-square&color=161B22&labelColor=161B22" alt="Produção" />
+      <img src="https://img.shields.io/badge/Banco_de_Dados-161B22?style=flat-square" alt="Banco de Dados" />
+      <img src="https://img.shields.io/badge/SQL-161B22?style=flat-square" alt="SQL" />
+      <img src="https://img.shields.io/badge/Novas_Funcionalidades-161B22?style=flat-square" alt="Novas Funcionalidades" />
+      <img src="https://img.shields.io/badge/Produ%C3%A7%C3%A3o-161B22?style=flat-square" alt="Produção" />
       <br/><br/>
-      <a href="https://gestorscarface.com.br/" target="_blank">
-        <img src="assets/badges/btn-system.svg" height="34" alt="Acessar Gestor Scarface" />
-      </a>
+      <a href="https://gestorscarface.com.br/" target="_blank"><img src="assets/badges/btn-system.svg" height="34" alt="Acessar Gestor Scarface" /></a>
     </td>
     <td width="50%" valign="top">
       <h4>BioTrack SaaS</h4>
@@ -111,12 +99,10 @@
         <em>Clinical telemonitoring SaaS with AI for predictive analysis and WhatsApp API automation.</em>
       </p>
       <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=D4AF37" alt="Python" />
-      <img src="https://img.shields.io/badge/OpenAI-161B22?style=flat-square&logo=openai&logoColor=D4AF37" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/IA_%26_OpenAI-161B22?style=flat-square" alt="IA e OpenAI" />
       <img src="https://img.shields.io/badge/WhatsApp_API-161B22?style=flat-square&logo=whatsapp&logoColor=D4AF37" alt="WhatsApp API" />
       <br/><br/>
-      <a href="https://biotrack.app.br/" target="_blank">
-        <img src="assets/badges/btn-platform.svg" height="34" alt="Acessar BioTrack SaaS" />
-      </a>
+      <a href="https://biotrack.app.br/" target="_blank"><img src="assets/badges/btn-platform.svg" height="34" alt="Acessar BioTrack SaaS" /></a>
     </td>
   </tr>
   <tr>
@@ -128,7 +114,7 @@
       </p>
       <img src="https://img.shields.io/badge/Power_BI-161B22?style=flat-square" alt="Power BI" />
       <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=D4AF37" alt="Python" />
-      <img src="https://img.shields.io/badge/ETL-161B22?style=flat-square&logo=databricks&logoColor=D4AF37" alt="ETL" />
+      <img src="https://img.shields.io/badge/ETL-161B22?style=flat-square" alt="ETL" />
     </td>
     <td width="50%" valign="top">
       <h4>FutScore Analytics &amp; Scout</h4>
@@ -152,9 +138,7 @@
       <img src="https://img.shields.io/badge/CSS-161B22?style=flat-square&logo=css&logoColor=D4AF37" alt="CSS" />
       <img src="https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=D4AF37" alt="JavaScript" />
       <br/><br/>
-      <a href="https://patricianeri.netlify.app/" target="_blank">
-        <img src="assets/badges/btn-project.svg" height="34" alt="Acessar Patrícia Neri" />
-      </a>
+      <a href="https://patricianeri.netlify.app/" target="_blank"><img src="assets/badges/btn-project.svg" height="34" alt="Acessar Patrícia Neri" /></a>
     </td>
   </tr>
 </table>
